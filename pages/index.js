@@ -18,7 +18,7 @@ export default function Home({ randomnum }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>NextJS ISR CELEBRATEEEEEE (or maybe not)</title>
+        <title>NextJS ISR</title>
         <meta name="description" content="NextJS ISR" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,7 +26,7 @@ export default function Home({ randomnum }) {
       <main>
         {randomnum.map((item) => (
           <div key={item}>
-            <h1>Random number Annina: {item}</h1>
+            <h1>Random number Annina CELEBRTE IN TEXT: {item}</h1>
             </div>
         ))}
       </main>
